@@ -51,11 +51,11 @@
 }
 
 /* Design for Bigger Screen */
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
 	.detail-container-grid {
 		display: grid;
 		grid-template-columns: 50% 50%;
-		height: 500px;
+		height: max-content;
 	}
 	.detail-image-container {
 		background-image: linear-gradient(180deg, #01cb63, #00d768);

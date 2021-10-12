@@ -11,3 +11,6 @@ body {
 .color-white {
 	color: white;
 }
+#root {
+	padding-top: min(12vh, 110px);
+}
