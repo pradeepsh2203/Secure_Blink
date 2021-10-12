@@ -1,0 +1,20 @@
+.courses-tag {
+	text-align: center;
+	color: #01cb63;
+	font-size: 18px;
+}
+.courses-heading {
+	text-align: center;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.courses-card-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+@media all and (max-width: 840px) {
+	.courses-card-container {
+		justify-content: center;
+	}
+}

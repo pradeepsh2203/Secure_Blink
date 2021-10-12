@@ -13,6 +13,7 @@
 }
 .detail-content p {
 	font-size: 15px;
+	font-style: italic;
 }
 .detail-button {
 	background: black;
@@ -31,7 +32,6 @@
 	display: flex;
 	padding: 10px 150px;
 	justify-content: space-between;
-	align-items: center;
 	flex-wrap: wrap;
 	background: transparent;
 	background-image: url("../data/briefImage.svg");

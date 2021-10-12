@@ -10,7 +10,15 @@ body {
 }
 .color-white {
 	color: white;
+	font-style: normal;
 }
 #root {
 	padding-top: min(12vh, 110px);
+}
+.flex {
+	display: flex;
+}
+.space-between {
+	justify-content: space-between;
+	align-items: center;
 }
