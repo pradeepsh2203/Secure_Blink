@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+.header-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #fff 0% 0% no-repeat padding-box;
+	height: 12vh;
+	max-height: 110px;
+	padding: 0 3%;
+	font-size: 20px;
+}
+.header-img {
+	height: 2.4em;
+}
+.header--list a {
+	margin: 0 10px;
+	font-family: "Noto Sans";
+	font-size: 20px;
+	line-height: 27px;
+	letter-spacing: 0;
+}
+.header--login {
+	font-weight: bold;
+}
+
+.header--register {
+	font-style: italic;
+	padding: 9px;
+	border-radius: 5px;
+	color: #fff;
+	background: #01cb63;
+	box-shadow: 0px 5px 15px #01cb6359;
+}
