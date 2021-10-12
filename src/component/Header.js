@@ -1,4 +1,3 @@
-import React from "react";
 import IMG from "../data/CourseHero.svg";
 import "../css/header.css";
 
@@ -7,8 +6,12 @@ const Header = () => {
 		<div className="header-flex">
 			<img className="header-img" alt="Company Logo" src={IMG} />
 			<div className="header--list">
-				<a className="header--login">Login</a>
-				<a className="header--register">Register</a>
+				<a className="header--login" href="/">
+					Login
+				</a>
+				<a className="header--register" href="/">
+					Register
+				</a>
 			</div>
 		</div>
 	);
