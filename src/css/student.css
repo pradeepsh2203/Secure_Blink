@@ -1,0 +1,44 @@
+.Student-title {
+	color: #01cb63;
+	font-size: 18px;
+}
+.Student-content {
+	font-size: 35px;
+	line-height: 35px;
+	margin: 0;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.Student-card-container {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Student-card {
+	width: 90vw;
+	max-width: 250px;
+	margin: 5px 10px 10px 0;
+}
+.Student-img {
+	width: 100%;
+}
+.Student-salary {
+	font-weight: bold;
+	font-size: 18px;
+	height: 36px;
+	display: flex;
+	align-items: center;
+}
+.Student-salary p {
+	margin-left: 10px;
+}
+.rect-icon {
+	height: 100%;
+}
+
+@media all and (max-width: 520px) {
+	.Student-card-container {
+		justify-content: center;
+	}
+}
