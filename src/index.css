@@ -22,3 +22,14 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+.center {
+	align-items: center;
+}
+.my-40 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.mx-30 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
