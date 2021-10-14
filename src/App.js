@@ -4,6 +4,7 @@ import Courses from "./component/Courses";
 import Student from "./component/Student";
 import Comment from "./component/Comment";
 import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Student />
 			<Comment />
 			<Contact />
+			<Footer />
 		</div>
 	);
 }
