@@ -1,20 +1,41 @@
+.courses-container {
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .courses-tag {
 	text-align: center;
 	color: #01cb63;
-	font-size: 18px;
+	font-size: 12px;
+	margin-bottom: 12px;
 }
 .courses-heading {
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	text-transform: capitalize;
+	margin-bottom: 20px;
 }
 .courses-card-container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	gap: 30px;
 }
-@media all and (max-width: 840px) {
-	.courses-card-container {
-		justify-content: center;
+
+@media all and (min-width: 425px) {
+	.courses-tag {
+		font-size: 16px;
+	}
+	.courses-heading {
+		font-size: 25px;
+	}
+}
+
+@media all and (min-width: 800px) {
+	.courses-tag {
+		font-size: 18px;
+	}
+	.courses-heading {
+		font-size: 35px;
 	}
 }

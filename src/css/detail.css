@@ -7,12 +7,13 @@
 	padding: 40px;
 }
 .detail-content h1 {
-	font-size: 30px;
+	font-size: 25px;
 	text-transform: capitalize;
 	color: #fff;
 }
 .detail-content p {
-	font-size: 15px;
+	font-size: 10px;
+	padding: 30px 0;
 	font-style: italic;
 }
 .detail-button {
@@ -28,13 +29,16 @@
 .detail-button:hover {
 	background: #1f2532;
 }
+.detail-brief-parent {
+	background-image: url("../data/briefImage.svg");
+	padding: 40px 0;
+}
 .detail-brief {
 	display: flex;
-	padding: 10px 150px;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-direction: column;
+	width: max-content;
+	margin: 0 auto;
 	background: transparent;
-	background-image: url("../data/briefImage.svg");
 }
 .detail-brief div {
 	margin: 20px;
@@ -50,7 +54,42 @@
 	border-bottom: 4px solid #01cb63;
 }
 
-/* Design for Bigger Screen */
+@media all and (min-width: 425px) {
+	.detail-content h1 {
+		font-size: 35px;
+	}
+	.detail-content p {
+		font-size: 20px;
+	}
+	.detail-button {
+		font-size: 15px;
+	}
+	.detail-brief {
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+		width: 100%;
+	}
+	.brief-title {
+		font-size: 14px;
+	}
+	.brief-num {
+		font-size: 30px;
+	}
+}
+
+@media all and (min-width: 800px) {
+	.detail-content h1 {
+		font-size: 45px;
+	}
+	.brief-title {
+		font-size: 20px;
+	}
+	.brief-num {
+		font-size: 35px;
+	}
+}
+
 @media all and (min-width: 1000px) {
 	.detail-container-grid {
 		display: grid;

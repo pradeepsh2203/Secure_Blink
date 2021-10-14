@@ -1,31 +1,35 @@
+.Student {
+	padding: 40px 0;
+}
 .Student-title {
 	color: #01cb63;
-	font-size: 18px;
+	font-size: 12px;
+	margin-bottom: 20px;
 }
 .Student-content {
-	font-size: 35px;
-	line-height: 35px;
-	margin: 0;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 .Student-card-container {
 	margin-top: 40px;
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
 }
 .Student-card {
-	width: 90vw;
-	max-width: 250px;
-	margin: 5px 10px 10px 0;
+	width: 80vw;
+	padding: 0 10px;
 }
 .Student-img {
 	width: 100%;
+	margin-bottom: 15px;
 }
 .Student-salary {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	height: 36px;
 	display: flex;
 	align-items: center;
@@ -37,8 +41,36 @@
 	height: 100%;
 }
 
-@media all and (max-width: 520px) {
+@media all and (min-width: 425px) {
+	.Student-title {
+		font-size: 16px;
+	}
+	.Student-content {
+		font-size: 25px;
+	}
 	.Student-card-container {
-		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.Student-card {
+		width: 35vw;
+	}
+	.Student-salary {
+		font-size: 18px;
+	}
+}
+
+@media all and (min-width: 800px) {
+	.Student-title {
+		font-size: 18px;
+	}
+	.Student-content {
+		font-size: 35px;
+	}
+}
+
+@media all and (min-width: 1000px) {
+	.Student-card {
+		width: 19vw;
 	}
 }

@@ -24,18 +24,20 @@ const Detail = () => {
 					/>
 				</div>
 			</div>
-			<div className="detail-brief">
-				<div>
-					<h3 className="brief-title">Total Students</h3>
-					<p className="brief-num">5140</p>
-				</div>
-				<div>
-					<h3 className="brief-title">Partners</h3>
-					<p className="brief-num">4123</p>
-				</div>
-				<div>
-					<h3 className="brief-title">Affiliate Distribution</h3>
-					<p className="brief-num">4.18 Lac</p>
+			<div className="detail-brief-parent">
+				<div className="detail-brief">
+					<div>
+						<h3 className="brief-title">Total Students</h3>
+						<p className="brief-num">5140</p>
+					</div>
+					<div>
+						<h3 className="brief-title">Partners</h3>
+						<p className="brief-num">4123</p>
+					</div>
+					<div>
+						<h3 className="brief-title">Affiliate Distribution</h3>
+						<p className="brief-num">4.18 Lac</p>
+					</div>
 				</div>
 			</div>
 		</>

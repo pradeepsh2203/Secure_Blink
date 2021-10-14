@@ -3,33 +3,33 @@
 }
 .Comment-title {
 	color: #01cb63;
-	font-size: 18px;
+	font-size: 12px;
 	margin-bottom: 20px;
 }
 .Comment-content {
-	font-size: 35px;
-	line-height: 35px;
-	margin: 0;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 .Comment-card-container {
-	margin-top: 60px;
+	width: 100%;
+	padding: 60px 10px;
+	padding-bottom: 0;
 	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 40px;
 }
 .Comment-card {
-	width: 35%;
-	min-width: 300px;
+	width: calc(100% - 80px);
 	padding: 20px 40px;
 	box-shadow: 0px 20px 30px #1f25321a;
-	border: 1px solid whitesmoke;
-	border-radius: 10px;
+	border: 1px solid #eee;
+	border-radius: 20px;
 }
 .Comment-card-image {
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	border-radius: 100%;
 	object-fit: cover;
 }
@@ -37,19 +37,83 @@
 	margin: 0.1em 0.6em;
 }
 .Comment-card-content {
+	font-size: 15px;
 	font-style: normal;
 	text-transform: capitalize;
 	opacity: 0.7;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .Comment-card-user {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 }
 .Comment-card-time {
-	font-size: 10px;
+	font-size: 8px;
 	color: #545d7a;
 }
 .Comment-quotation {
-	width: 30px;
+	width: 20px;
+}
+
+@media all and (min-width: 425px) {
+	.Comment-title {
+		font-size: 16px;
+	}
+	.Comment-content {
+		font-size: 25px;
+	}
+	.Comment-card {
+		width: calc(100% - 90px);
+		padding: 30px 45px;
+	}
+	.Comment-card-image {
+		width: 40px;
+		height: 40px;
+	}
+	.Comment-card-content {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.Comment-card-user {
+		font-size: 14px;
+	}
+	.Comment-card-time {
+		font-size: 10px;
+	}
+	.Comment-quotation {
+		width: 25px;
+	}
+}
+
+@media all and (min-width: 800px) {
+	.Comment-title {
+		font-size: 18px;
+	}
+	.Comment-content {
+		font-size: 35px;
+	}
+	.Comment-card-container {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.Comment-card {
+		width: 40%;
+	}
+	.Comment-card-image {
+		width: 50px;
+		height: 50px;
+	}
+	.Comment-card-content {
+		font-size: 21px;
+		margin-bottom: 45px;
+	}
+	.Comment-card-user {
+		font-size: 16px;
+	}
+	.Comment-card-time {
+		font-size: 12px;
+	}
+	.Comment-quotation {
+		width: 30px;
+	}
 }

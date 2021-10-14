@@ -26,7 +26,7 @@ const studentData = [
 
 const Student = () => {
 	return (
-		<div className="my-40 mx-30">
+		<div className="my-40 mx-30 Student">
 			<h2 className="Student-title">Top Earner</h2>
 			<p className="Student-content">Transformng your ideas</p>
 			<p className="Student-content">into reality</p>
